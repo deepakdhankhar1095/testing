@@ -1,0 +1,32 @@
+.bannerSupportBybanner {
+  height: 44px;
+  width: 44px;
+}
+
+.bannerSupportGoNative {
+  height: 45px;
+  width: 123px;
+}
+
+@media screen and (max-width: 580px) {
+  .bannerSupportBybanner {
+    height: 31px;
+    width: 31px;
+  }
+
+  .bannerSupportGoNative {
+    width: 87px;
+    height: 32px;
+  }
+
+  .bannerContentCofettiSvg {
+    width: 90px;
+    height: 18px;
+  }
+
+  .arrowLeft {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+  }
+}
